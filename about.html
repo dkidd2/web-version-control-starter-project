@@ -1,11 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <style> .basic {background-color: rgb(63, 2, 63);} </style>
-    <style> .center {width: 450px; margin: auto; border: 10px black;}</style> 
-   
-    <style> .left {width: 650px; margin: left; border: 10px black;}</style>  <title>Bootstrap Example </title>
-
+    <title>Bootstrap Example</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -25,18 +21,20 @@
   <body>
     <!-- Navbar gets added here -->
     <div id="nav-placeholder"></div>
-     
     <!-- Web page content goes inside Bootstrap container(s) -->
 
     <div class="container-fluid">
-     <div class="basic"> <div class="center"> <h1 style="color:white;"> Dylan Mateo Kidd</h1></div>
-      <div class="left"> <p style="color:white;">Mechanical Engineering Technician</p></div>
-      <div class="center"><h1 style="color:white;">Hello, GitHub! This is my first web page!!</h1></div>
-     <div class="left"> <p style="color:white;">
-        This is my first web page using version control with Git and GitHub.
-      </p></div>
+      <!--Adding info about me-->
+        <h1>Backround</h1>
+      <p>I am a Latino from New Mexico, Albuequerque.</p>
+      <h1>Education</h1>
+      <h4>Highschool</h4> <ul> <li> Cherry Creek Highschool</li><li>Cherry Creek Innovation Campus </Center></li></ul>
+      
+    <h4>Collage</h4> <ul> <li>Metropolitain University of Denver</li></ul>
+      
       <!--added MSU Logo to the webpage-->
-    </div> </div>
+<h4>Achievements </h4> <ul> <li>National Honors of Coligate Scholars</li> <li>National Society of Leadership and Success</li>
+</ul>
       <img
         src="images/msu_logo.jpg"
         class="img-fluid"
@@ -48,7 +46,7 @@
 
     <script>
       // Load only the #site-nav element from navbar.html
-      $("#nav-placeholder").load("navbar.html #site-nav");
+      $("#nav-placeholder").load("navbar.html #site-about");
     </script>
   </body>
 </html>
